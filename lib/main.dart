@@ -26,6 +26,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(title: Text('Nexpro Solution'),),
         body: Column(
           children: [
             Expanded(child: WebViewWidget(controller: controller)),
